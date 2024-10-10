@@ -70,4 +70,9 @@
                 rdfs:hasExpectations.
 
 
-:hasInfluence rdfs:domain :
+:hasInfluence rdfs:domain :Data_Producer
+
+:Law            rdfs:hasInfluence.
+:Economic       rdfs:hasInfluence.
+:Technical      rdfs:hasInfluence.
+:socialCultural rdfs:hasInfluence.
