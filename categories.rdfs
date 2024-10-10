@@ -57,3 +57,17 @@
 :Derived_data   a :Processes.
 :Generated_data a :Processes.
 :Inferred_data  a :Processes.
+
+
+:hasExpectations rdfs:domain :Data_Processed;
+                 rdfs:domain :Identifiers;
+                 rdfs:domain :Behavioral;
+                 rdfs:domain :Identifiers;
+                 rdfs:domain :Data_Format.
+
+
+:Data_Producer  rdfs:type :User;
+                rdfs:hasExpectations.
+
+
+:hasInfluence rdfs:domain :
