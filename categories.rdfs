@@ -1,0 +1,59 @@
+@prefix :     <http://www.example.org/sample.rdfs#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+
+:Data_Format    rdfs:type :Data.
+:Data_Processed rdfs:type :Data.
+
+
+:Identifiers    rdfs:subClassOf :Data.
+:Behavioral     rdfs:subClassOf :Data.
+:Societal       rdfs:subClassOf :Data.
+
+:Human      a :Identifiers.
+:Biological a :Identifiers.
+:Devices    a :Identifiers.
+
+
+:Interactions   a :Behavioral.
+:Skills         a :Behavioral.
+:Actions        a :Behavioral.
+
+:Statistics     a :Societal.
+:Connections    a :Societal.
+:Companies      a :Societal.
+:Relationships  a :Societal.
+:Gender         a :Societal.
+
+
+:Re_identification  a :Anonymized.
+:Accuracy           a :Anonymized.
+:Linkability        a :Anonymized.
+
+:Technical      a :Anonymized.
+:Operational    a :Anonymized.
+:Business       a :Anonymized.
+
+
+:Plaintext      rdfs:subClassOf :Data_Format.
+:Anonymized     rdfs:subClassOf :Data_Format.
+:Pseudonymized  rdfs:subClassOf :Data_Format.
+:Metadata       rdfs:subClassOf :Data_Format.
+
+
+:Health     rdfs:subClassOf :Data_Processed.
+:Sensing    rdfs:subClassOf :Data_Processed.
+:Temporal   rdfs:subClassOf :Data_Processed.
+:Spacial    rdfs:subClassOf :Data_Processed.
+:Logical    rdfs:subClassOf :Data_Processed.
+
+
+
+:hasProcess rdfs:domain :Data_Processed.
+:Processes  rdfs:hasProcess :Data_Processed.
+
+:Observed_data  a :Processes.
+:Derived_data   a :Processes.
+:Generated_data a :Processes.
+:Inferred_data  a :Processes.
