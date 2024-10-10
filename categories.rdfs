@@ -3,8 +3,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
 
-:Data_Format    rdfs:type :Data.
-:Data_Processed rdfs:type :Data.
+:DataFormat    rdfs:type :Data.
+:DataProcessed rdfs:type :Data.
 
 
 :Identifiers    rdfs:subClassOf :Data.
@@ -27,7 +27,7 @@
 :Gender         a :Societal.
 
 
-:Re_identification  a :Anonymized.
+:ReIdentification  a :Anonymized.
 :Accuracy           a :Anonymized.
 :Linkability        a :Anonymized.
 
@@ -53,10 +53,10 @@
 :hasProcess rdfs:domain :Data_Processed.
 :Processes  rdfs:hasProcess :Data_Processed.
 
-:Observed_data  a :Processes.
-:Derived_data   a :Processes.
-:Generated_data a :Processes.
-:Inferred_data  a :Processes.
+:ObservedData  a :Processes.
+:DerivedData   a :Processes.
+:GeneratedData a :Processes.
+:InferredData  a :Processes.
 
 
 :hasExpectations rdfs:domain :Data_Processed;
@@ -66,8 +66,8 @@
                  rdfs:domain :Data_Format.
 
 
-:Data_Producer  rdfs:type :User;
-                rdfs:hasExpectations.
+:DataProducer  rdfs:type :User;
+               rdfs:hasExpectations.
 
 
 :hasInfluence rdfs:domain :Data_Producer
