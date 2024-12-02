@@ -1,6 +1,8 @@
 # Privacy-sensitive Data Categorization (PsDC)
 
 
+![Link for the Paper Under Review](https://www.techrxiv.org/users/847536/articles/1239807-individual-s-data-categorization-within-the-devprivops-lifecycle)
+
 
 ![Data Categorization and its Relationships into PsDC.](figs/relations.png)
 
@@ -16,9 +18,9 @@
 |             |            | Address         | Identifies devices based on network address             | Used for network communication and security       | IP                               |
 
 
-
+| Level 0     | Level 1    | Level 2         | Description                                             | Purpose                                           | Example                          |
+| ----------- | ---------- | --------------- | ------------------------------------------------------- | ------------------------------------------------- | -------------------------------- |
 | Behavioral | Interactions | Connections   | Understanding social relationships                                                                | Analyze social media interactions to identify users                                                        |                                                  |
-| ---------- | ------------ | ------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
 |            |              | Surveillance  | Monitoring behavior, identifying patterns, predicting future actions                              | Track user behavior                                                                                        | Webcams                                          |
 |            |              | Communication | Analyzing language, sentiment, and intent                                                         |                                                                                                            | Chats                                            |
 |            |              | Shopping      | Understanding consumer preferences, predicting purchasing behavior, personalizing recommendations | Analyze browsing history and purchase history to recommend relevant products and predict future purchases. | user's browsing history on an e-commerce website |
@@ -26,8 +28,9 @@
 |            | Actions      |               | Identify users based on digital actions                                                           | Analyse users interactions with digital platforms, websites, or applications                               | clickstream analysis, website browsing behavior  |
 
 
+| Level 0     | Level 1    | Level 2         | Description                                             | Purpose                                           | Example                          |
+| ----------- | ---------- | --------------- | ------------------------------------------------------- | ------------------------------------------------- | -------------------------------- |
 | Societal | Statistics    |         | Identify users  from social statistics                                                                                 | Statistics dataset analysis                      | Social demography                                         |
-| -------- | ------------- | ------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | --------------------------------------------------------- |
 |          | Connections   | Beliefs | Identify individuals based on their beliefs and potentially reveal their social circles, relationships, and activities | Always enabled microphones capture conversations | political views, religious beliefs, and personal opinions |
 |          | Companies     |         | collecting and analyzing data on companies                                                                             | Dataset analysis                                 | employee information and customer data                    |
 |          | Relationships |         | Identify users from their relationships                                                                                | Data observed from social interactions           | family relationships and friendships                      |
