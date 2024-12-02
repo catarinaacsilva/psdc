@@ -109,12 +109,12 @@ Here are some examples of how this categorization can be applied to behavioral a
     - GPS Coordinates: Real-time location data from mobile devices.
     - Cell Tower Data: Information about cell towers connected to a device.
 
-7. 8. Social Media Interactions
+7. Social Media Interactions
 
     - Likes, Comments, and Shares: User interactions with posts and comments.
     - Friend Connections: Social networks and connections between users.
 
-9. Online Purchases
+8. Online Purchases
 
     - Purchase History: Products purchased, quantities, and total spending.
     - Payment Methods: Credit card information, digital wallets, and other payment methods.
