@@ -7,6 +7,8 @@
 ![Data Categorization and its Relationships into PsDC.](figs/relations.png)
 
 
-![Data Categorization with PsDC](categories.md)
+![Data Categorization with PsDC - Extension of Data](extension_of.md)
+![Data Categorization with PsDC - Subtype of Data - Data Format](format.md)
+![Data Categorization with PsDC - Subtype of Data - Data Processed](processed.md)
 
 
