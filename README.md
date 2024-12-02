@@ -155,7 +155,11 @@ Identifying Individual Behavior Patterns
 By categorizing data in this way, we can identify individual behavioral patterns:
 
     Routine Analysis: Analyzing temporal data to identify regular workout patterns or sleep schedules.
+
     Activity Recognition: Using sensor data to classify activities like walking, running, or cycling.
+
     Health Trend Analysis: Tracking changes in heart rate, sleep quality, and other health metrics over time.
+
     Location-Based Behavior: Analyzing location data to identify frequent locations and mobility patterns.
+    
     Stress Level Detection: Using heart rate variability and other physiological data to estimate stress levels.
